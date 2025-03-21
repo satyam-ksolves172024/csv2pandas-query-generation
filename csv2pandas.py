@@ -21,7 +21,7 @@ from langchain.chat_models import AzureChatOpenAI
 
 # when using Groq
 # llm = ChatGroq(
-#     api_key="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", 
+#     api_key=os.getenv("GROQ_API_KEY"),
 #     # model_name="llama3-70b-8192",
 #     model_name = "llama-3.2-90b-vision-preview",
 #     # model_name = "llama-3.3-70b-versatile",
